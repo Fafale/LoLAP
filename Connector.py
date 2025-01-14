@@ -236,6 +236,9 @@ def get_objectives_complete(game_data, game_values):
         if assisted_epic_monster(game_data, player_name, "Baron"):
             objectives_complete.append(3)
             objectives_complete.append(13)
+        if assisted_epic_monster(game_data, player_name, "Atakhan"):
+            objectives_complete.append(16)
+            objectives_complete.append(17)
         if assisted_tower(game_data, player_name):
             objectives_complete.append(4)
             objectives_complete.append(14)
@@ -278,11 +281,11 @@ layout = [  [
                ])
             ],
             [
-                sg.Text('esse é o connector modificado do fafle, teje avisado')
+                sg.Text("If you don't receive your Starting Champions when you first connect, follow the install instructions on:\nhttps://github.com/Fafale/LoLAP")
             ]
         ]
 
-window = sg.Window('LOL AP - fafle edition', layout)
+window = sg.Window('LOL AP (Fafale Edition v2)', layout)
 while True:
     game_data = None
     event, values = window.read(timeout=2000)

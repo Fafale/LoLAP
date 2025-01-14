@@ -33,6 +33,8 @@ for champion_id in champions:
     location_table[champion_name + " - Check - Rift Herald"]       = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 12)
     location_table[champion_name + " - Assist Taking Baron"]       = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 3)
     location_table[champion_name + " - Check - Baron"]             = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 13)
+    location_table[champion_name + " - Assist Taking Atakhan"]     = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 16)
+    location_table[champion_name + " - Check - Atakhan"]           = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 17)
     location_table[champion_name + " - Assist Taking Tower"]       = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 4)
     location_table[champion_name + " - Check - Tower"]             = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 14)
     location_table[champion_name + " - Assist Taking Inhibitor"]   = LOLLocationData("Objective", 566_000000 + (int(champion_id) * 100) + 5)

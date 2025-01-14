@@ -61,6 +61,7 @@ class LOLWorld(World):
             self.multiworld.get_location(starting_champions[i] + " - Check - Dragon", self.player).place_locked_item(self.create_item("Completed Checks"))
             self.multiworld.get_location(starting_champions[i] + " - Check - Rift Herald", self.player).place_locked_item(self.create_item("Completed Checks"))
             self.multiworld.get_location(starting_champions[i] + " - Check - Baron", self.player).place_locked_item(self.create_item("Completed Checks"))
+            self.multiworld.get_location(starting_champions[i] + " - Check - Atakhan", self.player).place_locked_item(self.create_item("Completed Checks"))
             self.multiworld.get_location(starting_champions[i] + " - Check - Tower", self.player).place_locked_item(self.create_item("Completed Checks"))
             self.multiworld.get_location(starting_champions[i] + " - Check - Inhibitor", self.player).place_locked_item(self.create_item("Completed Checks"))
             self.added_checks += 5
@@ -70,6 +71,7 @@ class LOLWorld(World):
                 self.multiworld.get_location(name + " - Check - Dragon", self.player).place_locked_item(self.create_item("Completed Checks"))
                 self.multiworld.get_location(name + " - Check - Rift Herald", self.player).place_locked_item(self.create_item("Completed Checks"))
                 self.multiworld.get_location(name + " - Check - Baron", self.player).place_locked_item(self.create_item("Completed Checks"))
+                self.multiworld.get_location(name + " - Check - Atakhan", self.player).place_locked_item(self.create_item("Completed Checks"))
                 self.multiworld.get_location(name + " - Check - Tower", self.player).place_locked_item(self.create_item("Completed Checks"))
                 self.multiworld.get_location(name + " - Check - Inhibitor", self.player).place_locked_item(self.create_item("Completed Checks"))
                 self.added_checks += 5
